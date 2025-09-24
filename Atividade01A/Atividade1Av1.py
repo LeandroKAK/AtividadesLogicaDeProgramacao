@@ -18,10 +18,11 @@ def calculoImposto(salary):
         imposto += (x * 8/100)
     return imposto
 
-# Chamar a função para encontrrar o imposto
+# Chamar a função para encontrar o imposto
 if salary < 2000 and salary > 0:
     print('Isento')
 elif salary > 2000:
     print(f'Seu imposto será R$ {calculoImposto(salary):.2f}')
 else:
+
     print("Salário inválido")
